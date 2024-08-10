@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(215, 138, 23);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    margin-bottom: 30px;
+    box-shadow:0 15px 30px gray;
+    background: rgba(225,225,225,0.677);
+}
+
+#form{
+    width: 400px;
+    margin-bottom: 20px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow:0 15px 30px gray;
+    
+}
+
+#form h1{
+    text-align: center;
+    color: black;
+}
+
+#form button{
+    
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.container-input
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+ .container-input input{
+    border-radius: 5px ;
+    font-size: 20px;
+    margin-top: 5px;
+    padding:  10px;
+    border: 1px solid cornflowerblue;
+ }
+
+ .container-input input:focus{
+    outline: 0; 
+ }
+
+ .container-input.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px
+ }
+
+ .container-input .success input{
+    border-color: #a3aea9;
+ }
+ .container-input .error input{
+    border-color: red;
+ }
+
+ .container-id {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    font-size: 15px;
+    
+ }
+ .num-div::-webkit-outer-spin-button{
+    -moz-appearance: ;
+ }
+ .num-div::-webkit-outer-spin-button,
+ .num-div::-webkit-inner-spin-button{
+    margin: 0;
+    -webkit-appearance: none;
+ }
+
+.container-id input{
+    border-radius: 5px ;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    margin-right:auto;
+
+    
+}
+
+.container-id label{
+    
+    margin-left: auto; 
+}
+
+.container-id .name{
+    margin-left: 27%;
+    position: absolute;
+}
+
+.container-id .id{
+    margin-right: 28%;
+    position: absolute;
+}
